@@ -4,4 +4,4 @@ INNER JOIN SpotifyClone.historico_de_reproducoes as hp
 ON us.id_usuario = hp.FK_id_usuario 
 INNER JOIN SpotifyClone.musicas as mu
 ON mu.id_musica = hp.FK_id_musica
-group by us.usuario
+group by us.usuario;
